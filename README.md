@@ -1,50 +1,50 @@
 ### Welcome to my Graphics Works!
-The works below have been done in OpenGL, in NUS's Computer Graphics Course.
+Below are some of my projects exploring the fascinating world of graphics, developed using OpenGL and C++. Each project reflects my curiosity and interest in computer graphics and rendering techniques.
 
-**Lab 1 - Bouncing Circles**  
-By making use of the correct event callback functions, we draw circles and implement their logic in the space, making it look like a DVD player screensaver.  
+**Bouncing Circles Screensaver**  
+Inspired by the classic DVD player screensaver, I designed a system where colorful circles bounce off screen boundaries. User interactions allow for adding new circles with randomized attributes like size, speed, and color. The project uses double buffering to ensure smooth animations.  
 
 ![photo_2023-09-30_15-14-25](https://github.com/kayyenl/Unlimited-Graphics-Works/assets/99934242/8d5b365d-6d02-43d3-8d6b-905fe75dfc8b)  
 
-**Lab 2 - Need for Speed**  
-By understanding projection and view transformation, we learn how to provide a suitable `gluLookAt` and correct implementation of `glPerspective` (or `glFrustum`). This allowed us to position the camera and simulate an orbiting view around a planet while rendering cars moving along great circles on its surface.  
+**Orbital Camera with Great Circle Paths**  
+I created a dynamic 3D environment where cars traverse great circles on a planet’s surface. By designing a robust camera system with `gluLookAt` and `glPerspective`, I simulated a smooth orbital navigation, enabling users to explore the scene interactively.  
 
 ![image](https://github.com/kayyenl/Unlimited-Graphics-Works/assets/99934242/64ba5433-a581-42e3-be02-b8581e7c05c1)  
 
 ---
 
-**Lab 3 - Reflective Table**  
-In this lab, we implemented **planar reflections** using multi-pass rendering techniques and texture mapping. The reflective surface (a table) was created by rendering the scene from an imaginary viewpoint and applying the captured texture onto the table. The resulting reflection included mipmapping to smooth textures and simulated partial reflectivity, blending the reflection with the base material's color.  
+**Reflective Table with Texture Mapping**  
+This project explores **planar reflections** using multi-pass rendering and texture mapping. I created a reflective tabletop by rendering the scene from an imaginary viewpoint and applying the captured texture to the table. The final result combines partial reflectivity with mipmapped textures for a polished look.  
 
 ![image](https://github.com/user-attachments/assets/0f210ed4-4943-44b3-b89b-9d0cf0e7fca9)
 
 ---
 
-**Lab 4 - Ray Tracer**  
-This lab introduced the fundamentals of **ray tracing** by implementing the Whitted Ray Tracing algorithm. We programmed recursive ray intersections for spheres and planes, calculated lighting effects, and handled reflective surfaces. The final render included realistic shadows, reflections, and specular highlights, with recursion depth controlling the level of reflection realism.  
+**Recursive Ray Tracing Engine**  
+I implemented a ray-tracing engine capable of simulating realistic lighting effects, including reflections, shadows, and specular highlights. Recursive ray intersection algorithms were used to compute these effects, with controllable recursion depth for fine-tuning visual realism.  
 
 ![image](https://github.com/user-attachments/assets/1607f845-d7e6-4e7d-acc9-3735ee716383)
 
 ---
 
-**CS4247 Lab 1 - Skybox and Normal Mapping**  
-We explored **environment rendering** by implementing a skybox with cubemap textures to create an infinite background effect. Additionally, we applied **normal mapping** to enhance surface details on a cube, creating realistic lighting interactions without increasing the geometry complexity.  
+**Skybox and Enhanced Surface Details**  
+This project features a **skybox** to render infinite backgrounds using cubemaps, creating a realistic environment for a 3D scene. I also enhanced surface realism through **normal mapping**, dynamically adjusting how light interacts with textures without increasing geometric complexity.  
 
 ![image](https://github.com/user-attachments/assets/16dd3255-2d2f-48fb-8007-5eb16c11daf5)
 
 ---
 
-**CS4247 Lab 2 - Shadow Mapping with PCF**  
-In this lab, we implemented **shadow mapping** to project shadows from a light source onto a scene, using framebuffers to store depth information. We enhanced the shadow realism by integrating **percentage-closer filtering (PCF)** to smooth shadow edges and eliminate jagged artifacts.  
+**Shadow Mapping with Soft Shadows**  
+I implemented a **shadow mapping pipeline** to project realistic shadows from light sources. By integrating **percentage-closer filtering (PCF)**, I achieved smooth, anti-aliased shadow edges, eliminating harsh artifacts and improving the overall rendering quality.  
 
 ![image](https://github.com/user-attachments/assets/7231539f-96f6-4dbc-a8e7-ed770e32cd03)
 
 ---
 
-**CS4247 Lab 3 - Whitted Ray Tracing in GLSL**  
-Using GLSL shaders in Shadertoy, we built a **real-time ray tracer** capable of recursive reflections and lighting. The project included **distributed ray tracing** to simulate soft shadows, anti-aliasing, and depth-of-field effects, producing photorealistic scenes with dynamic objects and lights.  
+**Advanced Ray Tracer in GLSL**  
+Using GLSL shaders in Shadertoy, I developed a **real-time ray tracer** capable of rendering recursive reflections and realistic lighting effects. By incorporating distributed ray tracing, I simulated soft shadows, depth-of-field effects, and anti-aliasing to achieve photorealistic visuals.  
 
 ---
 
-**CS4247 Lab 4 - Progressive Radiosity**  
-In the final lab, we implemented the **progressive refinement radiosity algorithm** for global illumination. This included computing form factors with the hemicube method and iteratively refining light distribution for diffuse interreflections. The rendered scene demonstrated photorealistic ambient lighting and realistic diffuse shading.  
+**Global Illumination with Progressive Radiosity**  
+I implemented the **progressive refinement radiosity algorithm** to simulate diffuse light interreflections, achieving realistic global illumination. The project included computing form factors with the hemicube method and iteratively refining light distribution, producing ambient lighting and soft shading for 3D environments.  
