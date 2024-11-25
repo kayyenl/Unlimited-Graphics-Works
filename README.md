@@ -1,10 +1,14 @@
 ### Welcome to my Graphics Works!
-Below are some of my projects exploring the fascinating world of graphics, developed using OpenGL and C++. Each project reflects my curiosity and interest in computer graphics and rendering techniques.
+Below are some of my projects exploring the fascinating world of graphics, developed using OpenGL and C++.
+
+---
 
 **Bouncing Circles Screensaver**  
 Inspired by the classic DVD player screensaver, I designed a system where colorful circles bounce off screen boundaries. User interactions allow for adding new circles with randomized attributes like size, speed, and color. The project uses double buffering to ensure smooth animations.  
 
 ![photo_2023-09-30_15-14-25](https://github.com/kayyenl/Unlimited-Graphics-Works/assets/99934242/8d5b365d-6d02-43d3-8d6b-905fe75dfc8b)  
+
+---
 
 **Orbital Camera with Great Circle Paths**  
 I created a dynamic 3D environment where cars traverse great circles on a planet’s surface. By designing a robust camera system with `gluLookAt` and `glPerspective`, I simulated a smooth orbital navigation, enabling users to explore the scene interactively.  
