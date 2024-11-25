@@ -18,14 +18,14 @@ I created a dynamic 3D environment where cars traverse great circles on a planet
 ---
 
 **Reflective Table with Texture Mapping**  
-This project explores **planar reflections** using multi-pass rendering and texture mapping. I created a reflective tabletop by rendering the scene from an imaginary viewpoint and applying the captured texture to the table. The final result combines partial reflectivity with mipmapped textures for a polished look. Made a snowman for the festive season!
+This project explores **planar reflections** using multi-pass rendering and texture mapping. I created a reflective tabletop by rendering the scene from an imaginary viewpoint and applying the captured texture to the table. The final result combines partial reflectivity with mipmapped textures for a polished look.
 
 ![image](https://github.com/user-attachments/assets/0f210ed4-4943-44b3-b89b-9d0cf0e7fca9)
 
 ---
 
 **Recursive Ray Tracing Engine**  
-I implemented a ray-tracing engine capable of simulating realistic lighting effects, including reflections, shadows, and specular highlights. Recursive ray intersection algorithms were used to compute these effects, with controllable recursion depth for fine-tuning visual realism.  
+I implemented a ray-tracing engine capable of simulating realistic lighting effects, including reflections, shadows, and specular highlights. Recursive ray intersection algorithms were used to compute these effects, with controllable recursion depth for fine-tuning visual realism. Made a snowman for the festive season!
 
 ![image](https://github.com/user-attachments/assets/1607f845-d7e6-4e7d-acc9-3735ee716383)
 
