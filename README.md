@@ -48,7 +48,12 @@ I implemented a **shadow mapping pipeline** to project realistic shadows from li
 **Advanced Ray Tracer in GLSL**  
 Using GLSL shaders in Shadertoy, I developed a **real-time ray tracer** capable of rendering recursive reflections and realistic lighting effects. By incorporating distributed ray tracing, I simulated soft shadows, depth-of-field effects, and anti-aliasing to achieve photorealistic visuals.  
 
+![task1b](https://github.com/user-attachments/assets/4c5a2ebb-17e7-4321-8896-a74f0764b676)
+![task3b](https://github.com/user-attachments/assets/b5830297-ce21-4c7a-80db-e5515d1f5488)
+
 ---
 
 **Global Illumination with Progressive Radiosity**  
 I implemented the **progressive refinement radiosity algorithm** to simulate diffuse light interreflections, achieving realistic global illumination. The project included computing form factors with the hemicube method and iteratively refining light distribution, producing ambient lighting and soft shading for 3D environments.  
+
+![スクリーンショット 2024-04-25 090733](https://github.com/user-attachments/assets/42a01954-87e5-4e94-89de-d1a139fdc7e7)
