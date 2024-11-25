@@ -18,7 +18,7 @@ I created a dynamic 3D environment where cars traverse great circles on a planet
 ---
 
 **Reflective Table with Texture Mapping**  
-This project explores **planar reflections** using multi-pass rendering and texture mapping. I created a reflective tabletop by rendering the scene from an imaginary viewpoint and applying the captured texture to the table. The final result combines partial reflectivity with mipmapped textures for a polished look.  
+This project explores **planar reflections** using multi-pass rendering and texture mapping. I created a reflective tabletop by rendering the scene from an imaginary viewpoint and applying the captured texture to the table. The final result combines partial reflectivity with mipmapped textures for a polished look. Made a snowman for the festive season!
 
 ![image](https://github.com/user-attachments/assets/0f210ed4-4943-44b3-b89b-9d0cf0e7fca9)
 
